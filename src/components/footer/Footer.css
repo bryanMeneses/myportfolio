@@ -1,0 +1,26 @@
+.contactBG {
+    background: lightgray;
+    color: white;
+}
+.footer p {
+    color: black;
+}
+.footer a {
+    color: inherit;
+    text-decoration: none;
+}
+.footer i {
+    color: black;
+    border: 1px black solid;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 2px;
+  }
+  .footer .changeTextAlign {
+      text-align: center
+  }
+  @media (min-width: 768px) {
+      .footer .changeTextAlign {
+          text-align: left;
+      }
+  }

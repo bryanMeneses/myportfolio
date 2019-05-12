@@ -1,0 +1,30 @@
+.hrStyle {
+  /* border-top: 4px double rgb(52, 58, 64); */
+  border-bottom: 4px double rgb(214, 164, 81);
+  width: 250px;
+}
+
+.goldText {
+  color: rgb(215, 163, 74);
+}
+p {
+  color: rgb(121, 121, 121);
+}
+.myCard,
+.myCard1,
+.myCard2 {
+  /* transition: all 100ms linear; */
+  border-style: none none solid none;
+  border-width: 1px;
+  border-color: #dddddd;
+}
+@media (min-width: 768px) {
+  .myCard {
+    border-style: none solid solid none;
+  }
+}
+@media (min-width: 992px) {
+  .myCard1 {
+    border-style: none solid solid none;
+  }
+}

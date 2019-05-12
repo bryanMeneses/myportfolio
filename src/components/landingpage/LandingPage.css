@@ -1,0 +1,168 @@
+.css-typing h1 {
+  transition: all 100ms ease;
+  margin: auto;
+  font-size: 2em;
+  font-family: "Courier";
+  white-space: nowrap;
+  overflow: hidden;
+}
+.respImg {
+  transition: all 100ms ease;
+}
+/* This style contains the transition for all the buttons, so that it does not have to be repeated */
+.container .btnTransition, .card .btnTransition {
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.container .custom-Btn {
+  border-radius: 20px;
+  border: rgb(215, 163, 74);
+  background: rgb(215, 163, 74);
+}
+.socials i {
+  color: white;
+  border: 1px white solid;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 15px;
+}
+.container .custom-Btn:hover, .socials i:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background: rgb(214, 144, 22);
+  box-shadow: 0 1em 3em rgba(161, 159, 159, 0.175);
+}
+.container .custom-Btn:active, .socials i:active {
+  -webkit-transform: scale(1) !important;
+  transform: scale(1) !important;
+  background: rgb(195, 138, 38) !important;
+}
+/* .respImg {
+  -webkit-animation: fadein 3.25s;
+  animation: fadein 3.25s;
+} */
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (min-width: 768px) {
+  .respImg {
+    width: 300px;
+  }
+  .css-typing h1 {
+    font-size: 2.5em;
+  }
+}
+@media (min-width: 1010px) {
+  .css-typing h1 {
+    font-size: 3rem;
+  }
+}
+.css-typing h1:nth-child(1) {
+  width: 100%;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing h1:nth-child(2) {
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  /* 99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    border: none;
+  } */
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  /* 99.9% {
+    border-right: 0.15em solid orange;
+  }
+  100% {
+    border: none;
+  } */
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  /* 99.9% {
+    border-right: 0.15em solid orange;
+  } */
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  /* 99.9% {
+    border-right: 0.15em solid orange;
+  } */
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+
+
+/* @keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+} */
