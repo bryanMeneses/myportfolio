@@ -1,7 +1,7 @@
 .css-typing h1 {
   transition: all 100ms ease;
   margin: auto;
-  font-size: 2em;
+  font-size: 1.4em;
   font-family: "Courier";
   white-space: nowrap;
   overflow: hidden;
@@ -65,6 +65,11 @@
     opacity: 1;
   }
 }
+@media (min-width: 579px) {
+  .css-typing h1 {
+    font-size: 2em
+  }
+}
 @media (min-width: 768px) {
   .respImg {
     width: 300px;
@@ -75,7 +80,7 @@
 }
 @media (min-width: 1010px) {
   .css-typing h1 {
-    font-size: 3rem;
+    font-size: 3em;
   }
 }
 .css-typing h1:nth-child(1) {

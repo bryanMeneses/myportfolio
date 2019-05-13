@@ -1,7 +1,13 @@
 .projectCard {
-    width: 100%;
+    width: 85%;
     margin: auto;
 }
+@media (min-width: 992px) {
+    .projectCard {
+        width: 95%
+    }
+}
+
 .card .viewSiteBtn {
     border-radius: 10px;
     border: rgb(215, 163, 74);

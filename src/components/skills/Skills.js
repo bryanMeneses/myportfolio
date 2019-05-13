@@ -26,7 +26,7 @@ const Skills = () => {
             </Col>
             <Col xs="4" md="12" lg="4">
               <i className="fab fa-js-square skillIconSize text-warning"></i>
-              <p>JavaScript/ES6</p>
+              <p>JavaScript</p>
             </Col>
             <Col xs="4">
               <i className="fab fa-bootstrap skillIconSize" style={{ color: 'purple' }}></i>
