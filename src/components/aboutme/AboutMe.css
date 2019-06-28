@@ -3,7 +3,23 @@
   border-bottom: 4px double rgb(214, 164, 81);
   width: 250px;
 }
-
+@media (max-width: 375px) {
+  .aboutRespContainer h2 {
+    font-size: 1.5rem;
+  }
+  .aboutRespContainer h5 {
+    font-size: 1rem;
+  }
+  .aboutRespContainer h3 {
+      font-size: 1.4rem;
+  }
+  .aboutRespContainer p {
+    font-size: 0.9rem;
+  }
+  .aboutRespContainer i {
+    font-size: 3.5rem;
+  }
+}
 .goldText {
   color: rgb(215, 163, 74);
 }

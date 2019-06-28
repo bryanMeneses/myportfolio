@@ -27,8 +27,8 @@ class LandingPage extends Component {
   render() {
     let { btnSize } = this.state;
     return (
-      <div className="bg-dark text-light">
-        <Container className="py-4">
+      <div className="bg-dark text-light" style={{ paddingTop: '56px' }}>
+        <Container className="py-5">
           <Col sm="12">
             <div className="css-typing">
               <h1>Hello, I'm Bryan Meneses</h1>
@@ -38,7 +38,7 @@ class LandingPage extends Component {
           <Col sm="12">
             <Image
               src={pic}
-              width="200px"
+              width="150px"
               className="rounded-circle my-3 respImg"
             />
           </Col>
@@ -63,7 +63,7 @@ class LandingPage extends Component {
             </div>
           </Col>
 
-          <Button className="custom-Btn my-3 btnTransition" size={btnSize}>
+          <Button href="#projects" className="custom-Btn my-3 btnTransition" size={btnSize}>
             See My Work
           </Button>
         </Container>

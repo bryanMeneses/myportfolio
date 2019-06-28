@@ -5,13 +5,13 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="py-4 bg-light footer text-dark">
+        <div id="contact" className="footerRespContainer py-4 bg-light footer text-dark">
             <Container>
                 <h2>Let's get in touch</h2>
                 <hr className="hrStyle" style={{ borderBottom: '4px double rgb(52, 58, 64)' }} />
-                <p style={{ color: 'black' }}>Give me a call or shoot me an email! I'm interested in collaborating!</p>
+                <h5>I'm interested in collaborating!</h5>
                 <br />
-                <Row className="socials changeTextAlign">
+                <Row className="socials  justify-content-center">
                     <Col className="my-2" xs="12" md="5">
                         <h4>Contact Me</h4>
                         <p>t: <a href="tel:+17146234843">714-623-4843</a></p>
@@ -33,13 +33,6 @@ const Footer = () => {
                             target="_blank">
                             <i className="fab fa-github-alt btnTransition" />
                         </a>
-                    </Col>
-                    <Col className="my-2" xs="12" md="2">
-                        <a href="s">Home</a>
-                        <p></p>
-                        <a href="s">About</a>
-                        <p></p>
-                        <a href="s">My Work</a>
                     </Col>
                 </Row>
 

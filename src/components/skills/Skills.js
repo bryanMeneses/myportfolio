@@ -5,7 +5,7 @@ import './Skill.css'
 
 const Skills = () => {
   return (
-    <Container className="py-4">
+    <Container id="skills" className="skillsRespContainer py-4">
       <h2>Technologies I Know</h2>
       <hr className="hrStyle" />
       <h5 className="my-3">Need something specific? No problem!</h5>
@@ -18,11 +18,11 @@ const Skills = () => {
           <Row className="justify-content-center text-muted">
             <Col xs="4" md="4">
               <i className="fab fa-html5 skillIconSize text-primary"></i>
-              <p>HTML5</p>
+              <p>HTML 5</p>
             </Col>
             <Col xs="4" md="4">
               <i className="fab fa-css3-alt skillIconSize" style={{ color: 'orange' }} ></i>
-              <p>CSS</p>
+              <p>CSS 3</p>
             </Col>
             <Col xs="4" md="12" lg="4">
               <i className="fab fa-js-square skillIconSize text-warning"></i>
@@ -30,11 +30,11 @@ const Skills = () => {
             </Col>
             <Col xs="4">
               <i className="fab fa-bootstrap skillIconSize" style={{ color: 'purple' }}></i>
-              <p>Bootstrap</p>
+              <p>Bootstrap 4</p>
             </Col>
             <Col xs="4">
               <i className="fab fa-react skillIconSize" style={{ color: 'teal' }} ></i>
-              <p>React</p>
+              <p>React/Redux</p>
             </Col>
           </Row>
         </Col>

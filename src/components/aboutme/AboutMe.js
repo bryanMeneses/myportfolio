@@ -4,7 +4,7 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <div className="bg-light">
+    <div id='aboutme' className="aboutRespContainer bg-light">
       <Container className="py-4">
         <h2>About Me</h2>
         <hr className="hrStyle" />
@@ -28,9 +28,9 @@ const AboutMe = () => {
             <p>
               I received my Bachelor's Degree in Business/Accounting from
               California State University, Fullerton in January 2019.
-                </p>
-            <p>My web developing journey began shortly after.</p>
+            </p>
           </Col>
+
           <Col className="myCard" sm="10" md="6" lg="3">
             <i className="goldText fas fa-flag display-3" />
             <h3>Interests</h3>
@@ -48,10 +48,8 @@ const AboutMe = () => {
             <h3>Future</h3>
             <p>
               I want to devote my career life to programming and web
-              development. "Senior Web Developer" is something I would be
-              proud to be called one day I am a dreamer with many goals and
-              I hav
-                </p>
+              development. "Senior Web Developer" is what I aim to be called one day.
+            </p>
           </Col>
         </Row>
       </Container>

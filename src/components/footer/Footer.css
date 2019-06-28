@@ -2,6 +2,21 @@
     background: lightgray;
     color: white;
 }
+@media (max-width: 375px) {
+    .footerRespContainer h2 {
+      font-size: 1.5rem;
+    }
+    .footerRespContainer p {
+      font-size: 0.9rem;
+    }
+    .footerRespContainer i {
+      font-size: 0.8rem ;
+    }
+    .footerRespContainer h5 {
+      font-size: 1rem;
+    }
+  }
+
 .footer p {
     color: black;
 }
