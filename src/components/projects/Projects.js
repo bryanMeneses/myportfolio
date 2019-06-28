@@ -23,7 +23,7 @@ const Projects = () => {
                         <Card
                             image={require("./photix.png")}
                             title='Photix'
-                            text="Fiiling this text section with random words to take up space for the sake of appearance"
+                            text="This is a simple app allowing users to view an 'infinite' amount of latest pictures, search any tag or keyword the user wishes, and click on any picture to learn more about its specific details, such as where the picture was taken, who took it, details about the camera, and more."
                             link="http://photix.netlify.com"
                             sourceLink="https://github.com/bryanMeneses/photix" />
                     </Col>

@@ -1,7 +1,7 @@
 .navbar-nav a:hover {
   color: rgb(215, 163, 74) !important;
 }
-.navbar-dark .navbar-link .nav-link.active {
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
   color: rgb(215, 163, 74) !important;
 }
 nav.customNav {

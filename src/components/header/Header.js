@@ -8,7 +8,14 @@ const Header = () => {
     <div id="home">
 
       <Navbar collapseOnSelect expand="lg" className="customNav" variant="dark" fixed='top'>
-        <Navbar.Brand style={{ fontSize: '1.4rem' }}>bryanMeneses</Navbar.Brand>
+        <Link
+          style={{ cursor: "pointer" }}
+          to="home"
+          spy={true}
+          smooth={true}
+          duration={500}>
+          <Navbar.Brand className="mx-2" style={{ fontSize: '1.6rem' }}>bryanMeneses</Navbar.Brand>
+        </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
@@ -49,8 +56,8 @@ const Header = () => {
               className="nav-link p-3 mr-3">Contact Me</Link>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
-    </div>
+      </Navbar >
+    </div >
   );
 };
 export default Header;
