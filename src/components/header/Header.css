@@ -1,6 +1,9 @@
 .navbar-nav a:hover {
   color: rgb(215, 163, 74) !important;
 }
+.navbar-dark .navbar-link .nav-link.active {
+  color: rgb(215, 163, 74) !important;
+}
 nav.customNav {
   background: rgb(38, 38, 40) !important;;
 }

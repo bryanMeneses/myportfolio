@@ -11,7 +11,7 @@ const Projects = () => {
                 <hr className="hrStyle" />
                 <h5 className="my-3">Please take a look around!</h5>
                 <Row className="mt-4 justify-content-center text-dark">
-                    <Col className="my-4" sm="12" lg="5" xl="4">
+                    <Col className="my-4" sm="12" lg="6">
                         <Card
                             image={require("./myportfolio.png")}
                             title="My Portfolio"
@@ -19,7 +19,7 @@ const Projects = () => {
                             link="#home"
                             sourceLink="https://github.com/bryanMeneses/myportfolio" />
                     </Col>
-                    <Col className="my-4" sm="12" lg="5" xl="4">
+                    <Col className="my-4" sm="12" lg="6">
                         <Card
                             image={require("./photix.png")}
                             title='Photix'
