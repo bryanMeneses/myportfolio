@@ -14,7 +14,7 @@ const Header = () => {
           spy={true}
           smooth={true}
           duration={500}>
-          <Navbar.Brand className="mx-2" style={{ fontSize: '1.6rem' }}>bryanMeneses</Navbar.Brand>
+          <Navbar.Brand className="mx-2" style={{ fontSize: '1.8rem', letterSpacing: "3px" }}>bryanMeneses</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
