@@ -4,7 +4,7 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <div id='aboutme' className="aboutRespContainer bg-light">
+    <div id='aboutme' className="wow fadeIn aboutRespContainer bg-light">
       <Container className="py-4">
         <h2>About Me</h2>
         <hr className="hrStyle" />
@@ -14,12 +14,11 @@ const AboutMe = () => {
             <i className="goldText far fa-grin-beam display-3" />
             <h3>Personal</h3>
             <p>
-              My name is Bryan, a Stanton based 25 year old who is trying to
+              My name is Bryan, an accounting graduate who is trying to
               find a new path in life.
             </p>
             <p>
-              Accounting left me searching for something more interesting,
-              meaningful, and fun. In came programming!
+              Accounting left me searching for something more fulfilling. Web development resonated both with my creative and logical sides. Discovering this field has been a much needed breath of  fresh air.
             </p>
           </Col>
           <Col className="myCard1" sm="10" md="6" lg="3">

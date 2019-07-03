@@ -5,7 +5,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div id="contact" className="footerRespContainer py-4 bg-light footer text-dark">
+        <div id="contact" className="wow fadeIn footerRespContainer py-4 bg-light footer text-dark">
             <Container>
                 <h2>Let's get in touch</h2>
                 <hr className="hrStyle" style={{ borderBottom: '4px double rgb(52, 58, 64)' }} />

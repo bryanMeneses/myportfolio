@@ -27,7 +27,7 @@ class LandingPage extends Component {
   render() {
     let { btnSize } = this.state;
     return (
-      <div className="bg-dark text-light" style={{ paddingTop: '56px' }}>
+      <div className="animated fadeIn bg-dark text-light" style={{ paddingTop: '56px' }}>
         <Container className="py-5">
           <Col sm="12">
             <div className="css-typing">

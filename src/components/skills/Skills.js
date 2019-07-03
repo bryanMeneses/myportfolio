@@ -5,7 +5,7 @@ import './Skill.css'
 
 const Skills = () => {
   return (
-    <Container id="skills" className="skillsRespContainer py-4">
+    <Container id="skills" className="animated fadeIn skillsRespContainer py-4">
       <h2>Technologies I Know</h2>
       <hr className="hrStyle" />
       <h5 className="my-3">Need something specific? No problem!</h5>

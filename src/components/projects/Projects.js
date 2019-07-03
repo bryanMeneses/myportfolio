@@ -5,7 +5,7 @@ import './Projects.css';
 
 const Projects = () => {
     return (
-        <div id="projects" className="cardsRespContainer bg-dark">
+        <div id="projects" className="wow fadeIn cardsRespContainer bg-dark">
             <Container className="py-4 text-light">
                 <h2>My Work</h2>
                 <hr className="hrStyle" />
