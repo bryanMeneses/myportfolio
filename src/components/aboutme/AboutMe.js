@@ -18,7 +18,7 @@ const AboutMe = () => {
               find a new path in life.
             </p>
             <p>
-              Accounting left me searching for something more fulfilling. Web development resonated both with my creative and logical sides. Discovering this field has been a much needed breath of  fresh air.
+              Web development resonated both with my creative and logical sides.
             </p>
           </Col>
           <Col className="myCard1" sm="10" md="6" lg="3">
@@ -40,14 +40,14 @@ const AboutMe = () => {
                 </p>
             <p>
               * If we share any of these interests, I would love to connect!
-                </p>
+            </p>
           </Col>
           <Col className="myCard2" sm="10" md="6" lg="3">
             <i className="goldText fas fa-long-arrow-alt-right display-3" />
             <h3>Future</h3>
             <p>
               I want to devote my career life to programming and web
-              development. "Senior Web Developer" is what I aim to be called one day.
+              development. "Senior Web Developer" is what I aim to be called in the long-run.
             </p>
           </Col>
         </Row>
