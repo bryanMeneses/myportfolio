@@ -1,7 +1,6 @@
 .circleBase {
     border-radius: 50%;
 }
-
 @media (max-width: 375px) {
     .skillsRespContainer h2 {
         font-size: 1.5rem;

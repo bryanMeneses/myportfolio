@@ -4,28 +4,8 @@ import "./LandingPage.css";
 import pic from "./pic.jpg";
 
 class LandingPage extends Component {
-  constructor() {
-    super();
-    this.state = {
-      btnSize: ""
-    };
-  }
-
-  updateDimensions = () => {
-    if (window.innerWidth >= 783) {
-      this.setState({ btnSize: "lg" });
-    } else {
-      this.setState({ btnSize: "md" });
-    }
-  };
-
-  componentDidMount() {
-    window.addEventListener("load", this.updateDimensions);
-    window.addEventListener("resize", this.updateDimensions);
-  }
 
   render() {
-    let { btnSize } = this.state;
     return (
       <div className="animated fadeIn bg-dark text-light" style={{ paddingTop: '56px' }}>
         <Container className="py-5">
@@ -63,7 +43,7 @@ class LandingPage extends Component {
             </div>
           </Col>
 
-          <Button href="#projects" className="custom-Btn my-3 btnTransition" size={btnSize}>
+          <Button href="#projects" className="custom-Btn my-3 btnTransition">
             See My Work
           </Button>
         </Container>

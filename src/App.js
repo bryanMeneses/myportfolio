@@ -13,9 +13,9 @@ class App extends Component {
       <div className="App text-center">
         <Header />
         <LandingPage />
+        <Projects />
         <Skills />
         <AboutMe />
-        <Projects />
         <Footer />
         <Copyright />
       </div>

@@ -1,9 +1,10 @@
 import React from 'react'
 
 const Copyright = () => {
+    const date = new Date(Date.now())
     return (
         <div className="wow fadeIn bg-dark text-light p-2" style={{ height: '3em' }}>
-            Copyright © 2019 Bryan Meneses
+            Copyright © {date.getFullYear()} Bryan Meneses
         </div>
     )
 }

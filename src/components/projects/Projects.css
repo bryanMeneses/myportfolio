@@ -1,6 +1,7 @@
 .projectCard {
     width: 85%;
     margin: auto;
+    border: 1px solid rgba(52, 68, 50, 0.5) !important;
 }
 @media (max-width: 375px) {
     .cardsRespContainer h2 {
@@ -25,18 +26,36 @@
     }
 }
 .card .viewSiteBtn {
+    color: white;
+    padding: .4rem .75rem;
     border-radius: 10px;
-    border: rgb(215, 163, 74);
+    box-shadow: .8px 2px 3px rgba(0, 0, 0, 0.25);
     background: linear-gradient(to left, rgba(128, 34, 36, 0.9) 0%, rgba(215, 163, 74,1) 100%);
+    transition: all 150ms ease-in;
 }
 .card .viewSiteBtn:hover {
+    text-decoration: none;
     background: linear-gradient(to left, rgba(215, 163, 74,1) 0%, rgba(128, 34, 36, 0.9) 100%);
   }
+  .card .viewSiteBtn:active {
+    background: linear-gradient(to left, rgba(128, 34, 36, 0.9) 0%, rgba(215, 163, 74,1) 100%);
+    box-shadow: none;
+  }
 .card .viewSourceBtn {
+    color: white;
+    padding: .4rem .75rem;
     border-radius: 10px;
-    border:  rgb(15, 157, 15);
-    background: rgb(15, 157, 15);
+    background: rgb(93, 160, 131);
+    box-shadow: .8px 2px 3px rgba(0, 0, 0, 0.25);
+    transition: all 150ms ease-in;
 }
 .card .viewSourceBtn:hover {
-    background: rgb(13, 131, 13); 
+  background: rgb(120, 191, 160);
+  color: black;
+  text-decoration: none;
+}
+.card .viewSourceBtn:active {
+  color: white;
+  background: rgb(73, 126, 103);
+  box-shadow: none;
 }

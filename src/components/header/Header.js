@@ -21,6 +21,7 @@ const Header = () => {
           <Nav className="ml-auto">
             <Link
               style={{ cursor: "pointer" }}
+              offset={-56}
               to="home"
               spy={true}
               smooth={true}
@@ -28,6 +29,7 @@ const Header = () => {
               className="nav-link p-3 mr-3">Home</Link>
             <Link
               style={{ cursor: "pointer" }}
+              offset={-56}
               to="projects"
               spy={true}
               smooth={true}
@@ -35,6 +37,7 @@ const Header = () => {
               className="nav-link p-3 mr-3">My Work</Link>
             <Link
               style={{ cursor: "pointer" }}
+              offset={-56}
               to="skills"
               spy={true}
               smooth={true}
@@ -42,6 +45,7 @@ const Header = () => {
               className="nav-link p-3 mr-3">Skills</Link>
             <Link
               style={{ cursor: "pointer" }}
+              offset={-56}
               to="aboutme"
               spy={true}
               smooth={true}
@@ -49,6 +53,7 @@ const Header = () => {
               className="nav-link p-3 mr-3">About Me</Link>
             <Link
               style={{ cursor: "pointer" }}
+              offset={-56}
               to="contact"
               spy={true}
               smooth={true}

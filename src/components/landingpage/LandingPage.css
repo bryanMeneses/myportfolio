@@ -20,6 +20,8 @@
   border-radius: 20px;
   border: rgb(215, 163, 74);
   background: rgb(215, 163, 74);
+  width: 27%;
+  max-width: 200px;
 }
 .socials i {
   color: white;
