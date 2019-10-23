@@ -15,7 +15,7 @@ const Projects = () => {
                         <Card
                             image={require("./travelogue.png")}
                             title="TraveLogue (Full Stack)"
-                            text="Fiiling this text section with random words to take up space for the sake of appearance"
+                            text="This website allows users to register their own accounts safely and customize their own profiles, utilizes JSON web tokens for authentication, and features a feed page where users can make posts and like/comment other users’ posts."
                             link="https://travelogue-bm.herokuapp.com"
                             sourceLink="https://github.com/bryanMeneses/travelogue"
                             apiSource="https://github.com/bryanMeneses/travelogue-api" />
@@ -24,7 +24,7 @@ const Projects = () => {
                         <Card
                             image={require("./photix.png")}
                             title='Photix'
-                            text="This is a simple app allowing users to view an 'infinite' amount of latest pictures, search any tag or keyword the user wishes, and click on any picture to learn more about its specific details, such as where the picture was taken, who took it, details about the camera, and more."
+                            text="Users can view an “infinite” collection of photos from Unsplash, touch on any photo to see specific details, and search for any photos they’d like."
                             link="http://photix.netlify.com"
                             sourceLink="https://github.com/bryanMeneses/photix" />
                     </Col>
