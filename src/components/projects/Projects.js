@@ -15,7 +15,7 @@ const Projects = () => {
                         <Card
                             image={require("./travelogue.png")}
                             title="TraveLogue (Full Stack)"
-                            text="This website allows users to register their own accounts safely and customize their own profiles, utilizes JSON web tokens for authentication, and features a feed page where users can make posts and like/comment other users’ posts."
+                            text={`This website allows users to register their own accounts safely and customize their own profiles, utilizes JSON web tokens for authentication, and features a feed page where users can make posts and like/comment other users’ posts. Use demo@demo.com and password 12345 to sign in.`}
                             link="https://travelogue-bm.herokuapp.com"
                             sourceLink="https://github.com/bryanMeneses/travelogue"
                             apiSource="https://github.com/bryanMeneses/travelogue-api" />
