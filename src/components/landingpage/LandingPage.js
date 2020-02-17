@@ -12,7 +12,7 @@ class LandingPage extends Component {
           <Col sm="12">
             <div className="css-typing">
               <h1>Hello, I'm Bryan Meneses</h1>
-              <h1>Full-Stack Web Developer</h1>
+              <h1>Front End Web Developer</h1>
             </div>
           </Col>
           <Col sm="12">
